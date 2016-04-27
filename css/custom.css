@@ -1,0 +1,172 @@
+body{
+  background:#fff;
+  width:100%;
+  height:auto;
+  font-size:1.5em;/**16px**/
+  font-family:'Open Sans', sans-serif;
+  font-weight: normal;
+  color: #3D3D3D;
+  line-height: 2.3rem;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6  {
+  color: #30333C;
+  margin-top: 6rem;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 6rem;
+  font-weight: 700;
+}
+
+h2::before {
+  content: '- ';
+}
+
+h2::after {
+  content: ' -';
+}
+
+h3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  margin: 3rem 0;
+}
+
+p {
+  font-size: inherit;
+  display: block;
+}
+
+a {
+  color: #455376;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+a:hover, a:focus, a:active {
+  color: #c5308a;
+  text-decoration: none;
+}
+
+section {
+  height: auto;
+  padding-bottom: 6rem;
+}
+
+.interests-wrapper {
+  border: 1px solid #ccc;
+  padding: 40px 30px;
+  box-shadow: 1px 6px 10px #ced1d8;
+  border-radius: .2em;
+  height: auto;
+  overflow: hidden;
+}
+
+.fa-i {
+  font-size: 4em;
+  color: #455376;
+}
+
+.carousel {
+    height: auto;
+}
+
+.carousel-caption {
+    bottom: 410px;
+  }
+
+.carousel-caption > h1 {
+  color: #fff;
+text-shadow: none;
+font-weight: bolder;
+}
+
+.join1, .join2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 200px;
+ }
+
+ .join1 {
+    background: #3D3D3D;
+}
+
+.join2 {
+    background: #878787;
+    border-left: 3px solid #fff;
+}
+
+#join,
+#join a {
+    color: #e0e0e0;
+    font-size: 1.8rem;
+}
+
+#join a {
+    font-weight: bold;
+    text-decoration: underline;
+ }
+
+ #contact {
+   background: url('../img/slider.jpg') no-repeat;
+   background-size: cover;
+   background-position: center center;
+ }
+
+ #contact h2 {
+  color: #C4C4C4 !important;
+}
+
+.form-wrapper {
+  background:rgba(51, 51, 51, 0.5);
+  padding: 40px;
+  border-radius: .2em;
+}
+
+.form-control:focus {
+    border-color: #c5308a;
+    outline: none;
+    -webkit-box-shadow:  transparent;
+    box-shadow: transparent;
+}
+
+form div div:nth-child(4) {
+  color: #3D3D3D;
+  font-style:italic;
+  font-size: 0.75em;
+  line-height: 40px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3D3D3D;
+    border-color: transparent;
+    border-radius: 0.2em;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover,
+.btn-primary:hover {
+  background-color: #a1236f !important;
+  border-color: transparent !important;
+}
+
+footer {
+  height: 60px;
+  padding: 1.50rem;
+}
+
+.fa {
+  font-size: 1.25em;
+}
