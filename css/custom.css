@@ -160,9 +160,12 @@ font-weight: bolder;
  }
 
  #contact {
-   background: url('../img/slider.jpg') no-repeat;
-   background-size: cover;
-   background-position: center center;
+  background: -webkit-linear-gradient(top, rgba(4,4,4,0.7) 1%,rgba(131,134,134,0.4) 99%), url('../img/slider.jpg') no-repeat;
+  background: -moz-linear-gradient(top, rgba(4,4,4,0.7) 1%,rgba(131,134,134,0.4) 99%), url('../img/slider.jpg') no-repeat;
+  background: -o-linear-gradient(top, rgba(4,4,4,0.7) 1%,rgba(131,134,134,0.4) 99%), url('../img/slider.jpg') no-repeat;
+  background: -ms-linear-gradient(top, rgba(4,4,4,0.7) 1%,rgba(131,134,134,0.4) 99%), url('../img/slider.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
  }
 
  #contact h2 {
