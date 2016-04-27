@@ -64,42 +64,6 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
-/* Responsive look */
-@media all and (max-width: 1024px) {
-  .interest-wrapper {
-    min-height: 430px;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .interest-wrapper {
-    min-height: 200px;
-    margin-top: 50px;
-  }
-}
-
-@media all and (max-width: 736px) {
-  .join2 {
-    border-left: none;
-  }
-}
-
-.mobile-image {
-  background: url('../img/slide3.jpg') no-repeat;
-  background-size: cover;
-  height: 200px;
-  position: relative;
-}
-
-.carousel-caption1 {
-  color: #fff;
-  margin-top: 75px;
-}
-
-.mobile-p {
-  font-size: 18px;
-}
-
 section {
   height: auto;
   padding-bottom: 6rem;
@@ -220,6 +184,42 @@ form div div:nth-child(4) {
 footer {
   height: 60px;
   padding: 1.50rem;
+}
+
+/* Responsive look */
+@media all and (max-width: 1024px) {
+  .interest-wrapper {
+    min-height: 430px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .interest-wrapper {
+    min-height: 200px;
+    margin-top: 50px;
+  }
+}
+
+@media all and (max-width: 736px) {
+  .join2 {
+    border-left: none;
+  }
+}
+
+.mobile-image {
+  background: url('../img/slide3.jpg') no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+}
+
+.carousel-caption1 {
+  color: #fff;
+  margin-top: 75px;
+}
+
+.mobile-p {
+  font-size: 18px;
 }
 
 
