@@ -54,7 +54,7 @@ p {
 }
 
 a {
-  color: #455376;
+  color: #9d9d9d;
   text-decoration: none;
   transition: all 0.5s ease;
 }
@@ -188,7 +188,7 @@ font-weight: bolder;
 }
 
 form div div:nth-child(4) {
-  color: #3D3D3D;
+  color: #fff;
   font-style:italic;
   font-size: 0.75em;
   line-height: 40px;
