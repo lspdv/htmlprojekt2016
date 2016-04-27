@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link href="css/custom.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
 </head>
 
 <body>
@@ -39,7 +40,7 @@
         </div>
       </nav>
   </div>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide hidden-sm hidden-xs" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     </ol>
@@ -48,15 +49,20 @@
     <div class="item active">
       <img class="first-slide" src="img/slider3.jpg" alt="Cinema">
         <div class="container">
-          <div class="carousel-caption">
+          <div class="carousel-caption wow bounceIn infinite">
             <h1>Pro všechny filmové fajnšmekry</h1>
           </div>
         </div>
     </div>
   </div>
+  <div class="container mobile-image hidden-lg hidden-md col-sm-12 col-xs-12">
+    <div class="carousel-caption1">
+      <p class="text-center mobile-p">Pro všechny filmové fajnšmekry</p>
+    </div>
+  </div>
 <section id="interests" class="container">
   <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wow bounce">
     <h2 class="text-center">Žhavé novinky týdne</h2>
     </div>
   </div>
@@ -166,5 +172,9 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
 </body>
 </html>
