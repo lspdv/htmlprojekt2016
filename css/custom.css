@@ -114,9 +114,19 @@ section {
   overflow: hidden;
 }
 
-.fa-i {
+.fa-i-left {
+  font-size: 4em;
+  color: #455376;
+}
+
+.fa-i-middle {
   font-size: 4em;
   color: #3d3d3d;
+}
+
+.fa-i-right {
+  font-size: 4em;
+  color: #f12d1d;
 }
 
 .carousel {
