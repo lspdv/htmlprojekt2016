@@ -17,6 +17,11 @@ h1, h2, h3, h4, h5, h6  {
   margin-top: 6rem;
 }
 
+.fa {
+  font-size: 1.25em;
+  color: #30333C;
+}
+
 h1 {
   text-transform: uppercase;
 }
@@ -49,7 +54,7 @@ p {
 }
 
 a {
-  color: #455376;
+  color: #9d9d9d;
   text-decoration: none;
   transition: all 0.5s ease;
 }
@@ -57,22 +62,6 @@ a {
 a:hover, a:focus, a:active {
   color: #c5308a;
   text-decoration: none;
-}
-
-.mobile-image {
-  background: url('../img/slide3.jpg') no-repeat;
-  background-size: cover;
-  height: 200px;
-  position: relative;
-}
-
-.carousel-caption1 {
-  color: #fff;
-  margin-top: 75px;
-}
-
-.mobile-p {
-  font-size: 18px;
 }
 
 section {
@@ -89,9 +78,19 @@ section {
   overflow: hidden;
 }
 
-.fa-i {
+.fa-i-left {
   font-size: 4em;
   color: #455376;
+}
+
+.fa-i-middle {
+  font-size: 4em;
+  color: #3d3d3d;
+}
+
+.fa-i-right {
+  font-size: 4em;
+  color: #f12d1d;
 }
 
 .carousel {
@@ -116,7 +115,7 @@ font-weight: bolder;
  }
 
  .join1 {
-    background: #3D3D3D;
+    background: #3d3d3d;
 }
 
 .join2 {
@@ -136,9 +135,12 @@ font-weight: bolder;
  }
 
  #contact {
-   background: url('../img/slider.jpg') no-repeat;
-   background-size: cover;
-   background-position: center center;
+  background: -webkit-linear-gradient(top, rgba(4,4,4,0.7) 1%,rgba(131,134,134,0.4) 99%), url('../img/slider.jpg') no-repeat;
+  background: -moz-linear-gradient(top, rgba(4,4,4,0.7) 1%,rgba(131,134,134,0.4) 99%), url('../img/slider.jpg') no-repeat;
+  background: -o-linear-gradient(top, rgba(4,4,4,0.7) 1%,rgba(131,134,134,0.4) 99%), url('../img/slider.jpg') no-repeat;
+  background: -ms-linear-gradient(top, rgba(4,4,4,0.7) 1%,rgba(131,134,134,0.4) 99%), url('../img/slider.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
  }
 
  #contact h2 {
@@ -153,14 +155,14 @@ font-weight: bolder;
 }
 
 .form-control:focus {
-    border-color: #c5308a;
+    border-color: #3d3d3d;
     outline: none;
     -webkit-box-shadow:  transparent;
     box-shadow: transparent;
 }
 
 form div div:nth-child(4) {
-  color: #3D3D3D;
+  color: #fff;
   font-style:italic;
   font-size: 0.75em;
   line-height: 40px;
@@ -168,14 +170,14 @@ form div div:nth-child(4) {
 
 .btn-primary {
     color: #fff;
-    background-color: #3D3D3D;
+    background-color: #3d3d3d;
     border-color: transparent;
     border-radius: 0.2em;
 }
 
 .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover,
 .btn-primary:hover {
-  background-color: #a1236f !important;
+  background-color: #3d3d3d !important;
   border-color: transparent !important;
 }
 
@@ -184,6 +186,38 @@ footer {
   padding: 1.50rem;
 }
 
-.fa {
-  font-size: 1.25em;
+/* Responsive look */
+@media all and (max-width: 1024px) {
+  .interest-wrapper {
+    min-height: 430px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .interest-wrapper {
+    min-height: 200px;
+    margin-top: 50px;
+  }
+}
+
+@media all and (max-width: 736px) {
+  .join2 {
+    border-left: none;
+  }
+}
+
+.mobile-image {
+  background: url('../img/slide3.jpg') no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+}
+
+.carousel-caption1 {
+  color: #fff;
+  margin-top: 75px;
+}
+
+.mobile-p {
+  font-size: 18px;
 }
